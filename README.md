@@ -1,6 +1,6 @@
 # Vrobo Landing Page
 
-The official landing page for Vrobo.co - AI-Powered Order Confirmation & Shipping Verification service.
+The official landing page for Vrobo - AI-Powered Order Confirmation & Shipping Verification service.
 
 ## Features
 

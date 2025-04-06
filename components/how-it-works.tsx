@@ -5,7 +5,7 @@ import { Bot, CheckCircle2, ArrowRight, RefreshCcw, BarChart3 } from "lucide-rea
 
 const translations = {
   en: {
-    title: "How Vrobo.co Works",
+    title: "How Vrobo Works",
     subtitle: "Smart order validation and shipping verification process",
     description: "Two powerful services to prevent failed deliveries",
     steps: [

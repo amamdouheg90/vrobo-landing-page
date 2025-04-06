@@ -10,7 +10,7 @@ const translations = {
       terms: "Terms & Conditions",
       refund: "Refund Policy"
     },
-    copyright: "© 2024 Vrobo.co. All rights reserved."
+    copyright: "© 2024 Vrobo. All rights reserved."
   },
   ar: {
     policies: {

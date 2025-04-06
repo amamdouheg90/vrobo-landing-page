@@ -6,7 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const translations = {
   en: {
     title: "Frequently Asked Questions",
-    subtitle: "Common questions about Vrobo.co",
+    subtitle: "Common questions about Vrobo",
     faqs: [
       {
         question: "What are Vrobo's main services?",

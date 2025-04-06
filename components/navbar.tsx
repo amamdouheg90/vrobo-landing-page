@@ -54,13 +54,13 @@ export function Navbar() {
                         <div className="relative w-12 h-12">
                             <Image
                                 src="/images/vrobo-logo.png"
-                                alt="Vrobo.co Logo"
+                                alt="Vrobo Logo"
                                 fill
                                 className="object-contain"
                                 priority
                             />
                         </div>
-                        <span className="text-lg font-semibold text-white">Vrobo.co</span>
+                        <span className="text-lg font-semibold text-white">Vrobo</span>
                     </Link>
 
                     {/* Navigation Links */}
@@ -83,7 +83,7 @@ export function Navbar() {
                     <div className={`flex items-center gap-4 ${direction === "rtl" ? "flex-row-reverse" : ""}`}>
                         <LanguageToggle />
                         <a
-                            href="http://admin.vrobo.co/login"
+                            href="http://admin.Vrobo/login"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-sm text-white/70 hover:text-white transition-colors"
@@ -91,7 +91,7 @@ export function Navbar() {
                             {t.login}
                         </a>
                         <a
-                            href="https://admin.vrobo.co/createAccount"
+                            href="https://admin.Vrobo.co/createAccount"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-[#CE035F] hover:bg-[#A80350] text-white px-4 py-2 rounded-md"
@@ -102,9 +102,9 @@ export function Navbar() {
                 </div>
             </div>
             {/* Language alternates for SEO */}
-            <link rel="alternate" hrefLang="en" href="https://vrobo.co" />
-            <link rel="alternate" hrefLang="ar" href="https://vrobo.co/ar" />
-            <link rel="alternate" hrefLang="x-default" href="https://vrobo.co" />
+            <link rel="alternate" hrefLang="en" href="https://Vrobo" />
+            <link rel="alternate" hrefLang="ar" href="https://Vrobo/ar" />
+            <link rel="alternate" hrefLang="x-default" href="https://Vrobo" />
         </nav>
     )
 } 

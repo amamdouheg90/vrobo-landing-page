@@ -20,10 +20,10 @@ const almarai = Almarai({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vrobo.co - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
-    template: "%s | Vrobo.co | في روبو"
+    default: "Vrobo - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
+    template: "%s | Vrobo | في روبو"
   },
-  description: "Vrobo.co helps e-commerce businesses reduce failed deliveries through AI-Powered Order Confirmation and shipping verification. Detect fake shipping updates and validate orders before shipping. | في روبو يساعد شركات التجارة الإلكترونية على تقليل فشل التوصيل من خلال التحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
+  description: "Vrobo helps e-commerce businesses reduce failed deliveries through AI-Powered Order Confirmation and shipping verification. Detect fake shipping updates and validate orders before shipping. | في روبو يساعد شركات التجارة الإلكترونية على تقليل فشل التوصيل من خلال التحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
   keywords: [
     "order validation",
     "shipping verification",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "AI-powered calls",
     "fake shipping detection",
     "order management",
-    "vrobo.co",
+    "Vrobo",
     "delivery validation",
     "automated order confirmation",
     "التحقق من الطلبات",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
     "التحقق من التسليم",
     "تأكيد الطلبات الآلي"
   ],
-  authors: [{ name: "Vrobo.co" }],
-  creator: "Vrobo.co",
-  publisher: "Vrobo.co",
+  authors: [{ name: "Vrobo" }],
+  creator: "Vrobo",
+  publisher: "Vrobo",
   robots: {
     index: true,
     follow: true,
@@ -87,23 +87,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: "ar_EG",
-    url: "https://vrobo.co",
-    siteName: "Vrobo.co | في روبو",
-    title: "Vrobo.co - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
-    description: "Reduce failed deliveries by up to 45% with Vrobo.co's AI-Powered Order Confirmation and shipping verification system. Detect fake shipping updates and validate orders before shipping. | قلل فشل التوصيل بنسبة تصل إلى 45٪ مع نظام في روبو للتحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
+    url: "https://Vrobo",
+    siteName: "Vrobo | في روبو",
+    title: "Vrobo - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
+    description: "Reduce failed deliveries by up to 45% with Vrobo's AI-Powered Order Confirmation and shipping verification system. Detect fake shipping updates and validate orders before shipping. | قلل فشل التوصيل بنسبة تصل إلى 45٪ مع نظام في روبو للتحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
     images: [
       {
         url: '/images/vrobo-logo-white-bg.png',
         width: 1200,
         height: 630,
-        alt: "Vrobo.co - AI-Powered Order Confirmation | في روبو - التحقق من الطلبات"
+        alt: "Vrobo - AI-Powered Order Confirmation | في روبو - التحقق من الطلبات"
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Vrobo.co - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
-    description: "Reduce failed deliveries by up to 45% with Vrobo.co's AI-Powered Order Confirmation and shipping verification system. | قلل فشل التوصيل بنسبة تصل إلى 45٪ مع نظام في روبو للتحقق من الطلبات والتوصيل",
+    title: "Vrobo - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
+    description: "Reduce failed deliveries by up to 45% with Vrobo's AI-Powered Order Confirmation and shipping verification system. | قلل فشل التوصيل بنسبة تصل إلى 45٪ مع نظام في روبو للتحقق من الطلبات والتوصيل",
     images: ['/images/vrobo-logo-white-bg.png'],
     creator: "@vrobo_co",
     site: "@vrobo_co"
@@ -112,10 +112,10 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://vrobo.co",
+    canonical: "https://Vrobo",
     languages: {
-      'en-US': 'https://vrobo.co',
-      'ar-EG': 'https://vrobo.co/ar'
+      'en-US': 'https://Vrobo',
+      'ar-EG': 'https://Vrobo/ar'
     }
   }
 }
