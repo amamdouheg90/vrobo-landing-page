@@ -20,10 +20,10 @@ const almarai = Almarai({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vrobo.co - AI-Powered Order Validation & Shipping Verification",
+    default: "Vrobo.co - AI-Powered Order Confirmation & Shipping Verification",
     template: "%s | Vrobo.co"
   },
-  description: "Vrobo.co helps e-commerce businesses reduce failed deliveries through AI-powered order validation and shipping verification. Detect fake shipping updates and validate orders before shipping.",
+  description: "Vrobo.co helps e-commerce businesses reduce failed deliveries through AI-Powered Order Confirmation and shipping verification. Detect fake shipping updates and validate orders before shipping.",
   keywords: [
     "order validation",
     "shipping verification",
@@ -50,28 +50,51 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: [
+      {
+        url: '/images/vrobo-logo-white-bg.png',
+        sizes: '32x32',
+        type: 'image/png',
+      },
+      {
+        url: '/images/vrobo-logo-white-bg.png',
+        sizes: '16x16',
+        type: 'image/png',
+      }
+    ],
+    apple: [
+      {
+        url: '/images/vrobo-logo-white-bg.png',
+        sizes: '180x180',
+        type: 'image/png',
+      }
+    ],
+    shortcut: '/images/vrobo-logo-white-bg.png',
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
     type: "website",
     locale: "en_US",
     alternateLocale: "ar_EG",
     url: "https://vrobo.co",
     siteName: "Vrobo.co",
-    title: "Vrobo.co - AI-Powered Order Validation & Shipping Verification",
-    description: "Reduce failed deliveries by up to 45% with Vrobo.co's AI-powered order validation and shipping verification system. Detect fake shipping updates and validate orders before shipping.",
+    title: "Vrobo.co - AI-Powered Order Confirmation & Shipping Verification",
+    description: "Reduce failed deliveries by up to 45% with Vrobo.co's AI-Powered Order Confirmation and shipping verification system. Detect fake shipping updates and validate orders before shipping.",
     images: [
       {
-        url: "https://vrobo.co/og-image.png",
+        url: '/images/vrobo-logo-white-bg.png',
         width: 1200,
         height: 630,
-        alt: "Vrobo.co - AI-Powered Order Validation"
+        alt: "Vrobo.co - AI-Powered Order Confirmation"
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Vrobo.co - AI-Powered Order Validation & Shipping Verification",
-    description: "Reduce failed deliveries by up to 45% with Vrobo.co's AI-powered order validation and shipping verification system.",
-    images: ['https://vrobo.co/twitter-image.png'],
+    title: "Vrobo.co - AI-Powered Order Confirmation & Shipping Verification",
+    description: "Reduce failed deliveries by up to 45% with Vrobo.co's AI-Powered Order Confirmation and shipping verification system.",
+    images: ['/images/vrobo-logo-white-bg.png'],
     creator: "@vrobo_co",
     site: "@vrobo_co"
   },
@@ -94,6 +117,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/images/vrobo-logo-white-bg.png" sizes="any" />
+        <link rel="apple-touch-icon" href="/images/vrobo-logo-white-bg.png" />
+      </head>
       <body className={`${poppins.variable} ${almarai.variable} font-sans antialiased`} suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <LanguageProvider>

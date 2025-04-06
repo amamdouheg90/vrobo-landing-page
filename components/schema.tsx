@@ -10,7 +10,7 @@ export function Schema() {
             "name": "Vrobo.co",
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
-            "description": "AI-powered order validation and shipping verification system for e-commerce businesses",
+            "description": "AI-Powered Order Confirmation and shipping verification system for e-commerce businesses",
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "EGP",
@@ -34,7 +34,7 @@ export function Schema() {
             "url": "https://vrobo.co",
             "name": "Vrobo.co",
             "logo": "https://vrobo.co/images/vrobo-logo.png",
-            "description": "Vrobo.co helps e-commerce businesses reduce failed deliveries through AI-powered order validation and shipping verification.",
+            "description": "Vrobo.co helps e-commerce businesses reduce failed deliveries through AI-Powered Order Confirmation and shipping verification.",
             "sameAs": [
               "https://twitter.com/vrobo_co",
               "https://linkedin.com/company/vrobo-co",
@@ -51,7 +51,7 @@ export function Schema() {
             "@type": "WebSite",
             "url": "https://vrobo.co",
             "name": "Vrobo.co",
-            "description": "AI-powered order validation and shipping verification",
+            "description": "AI-Powered Order Confirmation and shipping verification",
             "potentialAction": {
               "@type": "SearchAction",
               "target": "https://vrobo.co/search?q={search_term_string}",
