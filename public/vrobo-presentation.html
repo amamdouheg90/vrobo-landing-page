@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vrobo - Order Confirmation & Shipping Validation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .slide {
+            height: 100vh;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            break-after: page;
+        }
+        h1 {
+            color: #CE035F;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            color: #CE035F;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.5rem;
+        }
+        .feature {
+            margin: 1rem 0;
+            padding-left: 1rem;
+        }
+        @media print {
+            .slide {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <h1>Vrobo - Order Confirmation & Shipping Validation</h1>
+        <p class="subtitle">AI-Powered Order Validation & Shipping Verification</p>
+    </div>
+
+    <div class="slide">
+        <h2>What is Vrobo?</h2>
+        <div class="feature">
+            <h3>1. Order Confirmation</h3>
+            <p>Confirms orders with customers before shipping to reduce failed deliveries.</p>
+        </div>
+        <div class="feature">
+            <h3>2. Shipping Validation</h3>
+            <p>Verifies shipping company feedback when orders are marked as undelivered.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>How Vrobo Works</h2>
+        <div class="feature">
+            <h3>Multi-Channel Communication:</h3>
+            <p>1. Robo-IVR Calls<br>
+            Up to 3 automated calls with personalized voice messages</p>
+            <p>2. WhatsApp Messages<br>
+            AI-powered message analysis</p>
+            <p>3. SMS Fallback<br>
+            When WhatsApp is unavailable</p>
+            <p>4. Email Final Attempt<br>
+            Last resort communication</p>
+        </div>
+    </div>
+
+    <script>
+        // Auto-advance slides when in presentation mode
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'Space') {
+                window.scrollBy(0, window.innerHeight);
+            } else if (e.key === 'ArrowLeft') {
+                window.scrollBy(0, -window.innerHeight);
+            }
+        });
+    </script>
+</body>
+</html>

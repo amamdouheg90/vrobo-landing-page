@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+What is Vrobo?
+Vrobo offers two core services designed for e-commerce businesses:
+
+Order Confirmation
+Vrobo confirms orders with customers before they are shipped to reduce failed deliveries.
+
+Shipping Validation
+Vrobo verifies the feedback provided by shipping companies when orders are marked as undelivered (e.g. rejected by the customer). We check directly with the customer to confirm whether the rejection is real or not.
+
+How Vrobo Works
+To achieve accurate confirmation and validation, Vrobo follows a multi-step process:
+
+Robo-IVR Robo Calls
+We make up to 3 trials of automated calls with personalized voice messages tailored to the brand and situation.
+
+WhatsApp Messaging
+If the calls are unanswered, we send WhatsApp messages and use AI to analyze the customer’s response.
+
+Fallback to SMS
+If WhatsApp fails, we send an SMS.
+
+Final Attempt via Email
+If SMS is unsuccessful, we send an email.
+
+Integration & Notifications
+Vrobo automatically updates order status on platforms like Shopify, WordPress, and others.
+
+Merchants are notified of customer responses and any detected fake shipping updates. We may also notify shipping companies if applicable.
+
+If the customer updates their contact details or address, Vrobo passes that info back to the merchant and, when applicable, to the shipping company.
+
