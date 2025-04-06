@@ -1,7 +1,7 @@
 {
-  "name": "Vrobo.co",
-  "short_name": "Vrobo",
-  "description": "AI-Powered Order Confirmation & Shipping Verification",
+  "name": "Vrobo.co | في روبو",
+  "short_name": "Vrobo | في روبو",
+  "description": "AI-Powered Order Confirmation & Shipping Verification | التحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
