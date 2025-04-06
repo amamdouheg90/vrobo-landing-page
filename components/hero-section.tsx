@@ -30,7 +30,7 @@ export function HeroSection() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
           <div className={`flex flex-col gap-6 md:gap-8 ${direction === "rtl" ? "lg:order-1" : ""}`}>
-            <h1 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-primary-foreground ${direction === "rtl" ? "leading-[1.5] tracking-[0.5px]" : ""}`}>
+            <h1 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-primary-foreground ${direction === "rtl" ? "leading-[1.5] tracking-[0.15px]" : ""}`}>
               {t.headline}
             </h1>
             <p className={`text-gray-500 text-lg md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 ${direction === "rtl" ? "leading-[1.8] tracking-[0.3px]" : ""}`}>

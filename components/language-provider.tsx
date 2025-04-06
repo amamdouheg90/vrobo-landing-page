@@ -22,6 +22,7 @@ const LanguageContext = createContext<LanguageContextType>({
 export const useLanguage = () => useContext(LanguageContext)
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  const [mounted, setMounted] = useState(false)
   const [language, setLanguageState] = useState<Language>("en")
   const [direction, setDirection] = useState<Direction>("ltr")
 
@@ -36,21 +37,29 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       '--font-family-primary',
       lang === 'en' ? 'var(--font-poppins)' : 'var(--font-almarai)'
     )
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('preferred-language', lang)
+    }
   }
 
   useEffect(() => {
-    // Check browser language on initial load
-    const browserLang = navigator.language.split("-")[0]
-    if (browserLang === "ar") {
-      setLanguage("ar")
+    // This effect runs only once on client-side
+    const savedLanguage = localStorage.getItem('preferred-language') as Language
+    if (savedLanguage) {
+      setLanguage(savedLanguage)
     } else {
-      // Ensure font is set even for default English
-      document.documentElement.style.setProperty(
-        '--font-family-primary',
-        'var(--font-poppins)'
-      )
+      const browserLang = navigator.language.split("-")[0]
+      if (browserLang === "ar") {
+        setLanguage("ar")
+      }
     }
+    setMounted(true)
   }, [])
+
+  // Prevent flash of wrong language during SSR
+  if (!mounted) {
+    return null
+  }
 
   return (
     <LanguageContext.Provider value={{ language, direction, setLanguage }}>

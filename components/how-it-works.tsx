@@ -110,7 +110,7 @@ export function HowItWorks() {
     <section id="how-it-works" className="w-full py-12 md:py-24 bg-gradient-to-b from-background to-background/80">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-          <h2 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-gradient-to-r from-[#d01e3f] to-[#d01e3f]/70 bg-clip-text text-transparent ${fontClass}`}>
+          <h2 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-gradient-to-r from-[#d01e3f] to-[#d01e3f]/70 bg-clip-text text-transparent font-[var(--font-almarai)] ${direction === "rtl" ? "tracking-[0.15px]" : ""}`}>
             {t.title}
           </h2>
           <p className={`text-muted-foreground max-w-[700px] md:text-lg ${fontClass}`}>
