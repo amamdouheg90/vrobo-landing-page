@@ -89,14 +89,14 @@ export function Pricing() {
           <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             {t.subtitle}
           </p>
-          <p className="text-[#CE035F] font-medium">{t.note}</p>
+          <p className="text-[#d01e3f] font-medium">{t.note}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {t.tiers.map((tier, index) => (
             <Card
               key={index}
-              className={`border-2 ${index === 1 ? "border-[#CE035F]" : "hover:border-[#CE035F]"} transition-all duration-300`}
+              className={`border-2 ${index === 1 ? "border-[#d01e3f]" : "hover:border-[#d01e3f]"} transition-all duration-300`}
             >
               <CardHeader className={direction === "rtl" ? "text-right" : "text-left"}>
                 <CardTitle className="flex flex-col">
@@ -114,11 +114,11 @@ export function Pricing() {
                       {direction === "rtl" ? (
                         <>
                           <span className="text-sm">{feature}</span>
-                          <Check className="h-4 w-4 text-[#CE035F] mr-auto ml-2" />
+                          <Check className="h-4 w-4 text-[#d01e3f] mr-auto ml-2" />
                         </>
                       ) : (
                         <>
-                          <Check className="h-4 w-4 text-[#CE035F] mr-2" />
+                          <Check className="h-4 w-4 text-[#d01e3f] mr-2" />
                           <span className="text-sm">{feature}</span>
                         </>
                       )}

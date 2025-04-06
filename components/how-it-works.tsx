@@ -110,7 +110,7 @@ export function HowItWorks() {
     <section id="how-it-works" className="w-full py-12 md:py-24 bg-gradient-to-b from-background to-background/80">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-          <h2 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-gradient-to-r from-[#CE035F] to-[#CE035F]/70 bg-clip-text text-transparent ${fontClass}`}>
+          <h2 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-gradient-to-r from-[#d01e3f] to-[#d01e3f]/70 bg-clip-text text-transparent ${fontClass}`}>
             {t.title}
           </h2>
           <p className={`text-muted-foreground max-w-[700px] md:text-lg ${fontClass}`}>
@@ -122,10 +122,10 @@ export function HowItWorks() {
           {t.steps.map((step, index) => (
             <div
               key={index}
-              className={`relative p-6 bg-card rounded-xl border border-border/50 hover:border-[#CE035F]/30 transition-colors group ${fontClass}`}
+              className={`relative p-6 bg-card rounded-xl border border-border/50 hover:border-[#d01e3f]/30 transition-colors group ${fontClass}`}
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-2 rounded-lg bg-[#CE035F]/10 text-[#CE035F] group-hover:bg-[#CE035F] group-hover:text-white transition-colors">
+                <div className="p-2 rounded-lg bg-[#d01e3f]/10 text-[#d01e3f] group-hover:bg-[#d01e3f] group-hover:text-white transition-colors">
                   {step.icon}
                 </div>
                 <h3 className="text-xl font-semibold">{step.title}</h3>
@@ -136,7 +136,7 @@ export function HowItWorks() {
               <ul className="space-y-2">
                 {step.details.map((detail, i) => (
                   <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <ArrowRight className="w-4 h-4 text-[#CE035F]" />
+                    <ArrowRight className="w-4 h-4 text-[#d01e3f]" />
                     {detail}
                   </li>
                 ))}

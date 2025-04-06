@@ -94,7 +94,7 @@ export function Navbar() {
                             href="https://admin.Vrobo.co/createAccount"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-[#CE035F] hover:bg-[#A80350] text-white px-4 py-2 rounded-md"
+                            className="bg-[#d01e3f] hover:bg-[#d01e3f] text-white px-4 py-2 rounded-md"
                         >
                             {t.cta}
                         </a>

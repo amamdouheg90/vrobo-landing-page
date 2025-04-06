@@ -68,12 +68,12 @@ const translations = {
 }
 
 const icons = [
-  <Bot key="bot" className="w-10 h-10 text-[#CE035F]" />,
-  <MessageSquare key="message" className="w-10 h-10 text-[#CE035F]" />,
-  <BarChart key="chart" className="w-10 h-10 text-[#CE035F]" />,
-  <Globe key="globe" className="w-10 h-10 text-[#CE035F]" />,
-  <MessageCircle key="sms" className="w-10 h-10 text-[#CE035F]" />,
-  <Shield key="shield" className="w-10 h-10 text-[#CE035F]" />,
+  <Bot key="bot" className="w-10 h-10 text-[#d01e3f]" />,
+  <MessageSquare key="message" className="w-10 h-10 text-[#d01e3f]" />,
+  <BarChart key="chart" className="w-10 h-10 text-[#d01e3f]" />,
+  <Globe key="globe" className="w-10 h-10 text-[#d01e3f]" />,
+  <MessageCircle key="sms" className="w-10 h-10 text-[#d01e3f]" />,
+  <Shield key="shield" className="w-10 h-10 text-[#d01e3f]" />,
 ]
 
 export function Features() {
@@ -92,7 +92,7 @@ export function Features() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {t.features.map((feature, index) => (
-            <Card key={index} className="border-2 hover:border-[#CE035F] transition-all duration-300">
+            <Card key={index} className="border-2 hover:border-[#d01e3f] transition-all duration-300">
               <CardHeader className={direction === "rtl" ? "text-right" : "text-left"}>
                 <div className={`mb-2 ${direction === "rtl" ? "mr-0" : ""}`}>{icons[index]}</div>
                 <CardTitle>{feature.title}</CardTitle>

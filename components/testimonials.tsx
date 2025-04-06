@@ -106,13 +106,13 @@ export function Testimonials() {
             >
               <div>
                 <div className={`flex items-center mb-4 ${direction === "rtl" ? "flex-row-reverse" : ""}`}>
-                  <div className={`h-12 w-12 rounded-full bg-[#CE035F] flex items-center justify-center text-white font-bold text-lg ${direction === "rtl" ? "ml-4" : "mr-4"}`}>
+                  <div className={`h-12 w-12 rounded-full bg-[#d01e3f] flex items-center justify-center text-white font-bold text-lg ${direction === "rtl" ? "ml-4" : "mr-4"}`}>
                     {testimonial.author[0].toUpperCase()}
                   </div>
                   <div className={`flex flex-col ${direction === "rtl" ? "text-right" : "text-left"}`}>
                     <p className="font-bold text-white">{testimonial.author}</p>
                     <p className="text-sm text-gray-400">{testimonial.position}</p>
-                    <p className="text-xs text-[#CE035F] mt-1">{testimonial.service}</p>
+                    <p className="text-xs text-[#d01e3f] mt-1">{testimonial.service}</p>
                   </div>
                 </div>
                 <p className={`flex-grow mb-4 text-gray-400 ${direction === "rtl" ? "text-right" : "text-left"}`}>
@@ -123,7 +123,7 @@ export function Testimonials() {
                 {[...Array(5)].map((_, i) => (
                   <svg
                     key={i}
-                    className="w-5 h-5 text-[#CE035F] fill-[#CE035F]"
+                    className="w-5 h-5 text-[#d01e3f] fill-[#d01e3f]"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -142,13 +142,13 @@ export function Testimonials() {
             >
               <div>
                 <div className={`flex items-center mb-4 ${direction === "rtl" ? "flex-row-reverse" : ""}`}>
-                  <div className={`h-12 w-12 rounded-full bg-[#CE035F] flex items-center justify-center text-white font-bold text-lg ${direction === "rtl" ? "ml-4" : "mr-4"}`}>
+                  <div className={`h-12 w-12 rounded-full bg-[#d01e3f] flex items-center justify-center text-white font-bold text-lg ${direction === "rtl" ? "ml-4" : "mr-4"}`}>
                     {testimonial.author[0].toUpperCase()}
                   </div>
                   <div className={`flex flex-col ${direction === "rtl" ? "text-right" : "text-left"}`}>
                     <p className="font-bold text-white">{testimonial.author}</p>
                     <p className="text-sm text-gray-400">{testimonial.position}</p>
-                    <p className="text-xs text-[#CE035F] mt-1">{testimonial.service}</p>
+                    <p className="text-xs text-[#d01e3f] mt-1">{testimonial.service}</p>
                   </div>
                 </div>
                 <p className={`flex-grow mb-4 text-gray-400 ${direction === "rtl" ? "text-right" : "text-left"}`}>
@@ -159,7 +159,7 @@ export function Testimonials() {
                 {[...Array(5)].map((_, i) => (
                   <svg
                     key={i}
-                    className="w-5 h-5 text-[#CE035F] fill-[#CE035F]"
+                    className="w-5 h-5 text-[#d01e3f] fill-[#d01e3f]"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
