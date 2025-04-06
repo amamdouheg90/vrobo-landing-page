@@ -49,7 +49,7 @@ export function HeroIllustration() {
                                     <div className="w-12 h-12 bg-gradient-to-br from-[#d01e3f]/20 to-[#d01e3f]/5 backdrop-blur-md rounded-xl flex items-center justify-center shadow-lg">
                                         <ClipboardCheck className="w-6 h-6 text-[#d01e3f]" />
                                     </div>
-                                    <h3 className="text-lg font-medium text-white whitespace-nowrap">{t.orderConfirmation}</h3>
+                                    <h3 className={`text-lg font-medium text-white ${direction === "rtl" ? "whitespace-nowrap" : "break-words max-w-[180px]"}`}>{t.orderConfirmation}</h3>
                                 </div>
 
                                 {/* Platform Integration */}
@@ -78,7 +78,7 @@ export function HeroIllustration() {
                                     <div className="w-12 h-12 bg-gradient-to-br from-[#d01e3f]/20 to-[#d01e3f]/5 backdrop-blur-md rounded-xl flex items-center justify-center shadow-lg">
                                         <CheckCircle2 className="w-6 h-6 text-[#d01e3f]" />
                                     </div>
-                                    <h3 className="text-lg font-medium text-white whitespace-nowrap">{t.shippingValidation}</h3>
+                                    <h3 className={`text-lg font-medium text-white ${direction === "rtl" ? "whitespace-nowrap" : "break-words max-w-[180px]"}`}>{t.shippingValidation}</h3>
                                 </div>
 
                                 {/* Validation Steps */}
