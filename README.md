@@ -1,11 +1,11 @@
 # Vrobo Landing Page
 
-The official landing page for Vrobo - AI-Powered Order Confirmation & Shipping Verification service.
+The official landing page for Vrobo - IVR-powered Robo calls Order Confirmation & Shipping Verification service.
 
 ## Features
 
 - Order confirmation before shipping
-- Shipping validation through AI-powered calls
+- Shipping validation through IVR-powered Robo calls
 - Multi-channel communication (Calls, WhatsApp, SMS, Email)
 - Bilingual support (English & Arabic)
 - RTL support

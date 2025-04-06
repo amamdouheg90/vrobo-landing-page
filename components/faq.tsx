@@ -11,12 +11,12 @@ const translations = {
       {
         question: "What are Vrobo's main services?",
         answer:
-          "Vrobo offers two main services: 1) Order Validation - verifying orders with customers before shipping through AI-powered calls, WhatsApp, SMS, and email, and 2) Shipping Verification - checking shipping companies' reports when orders are marked as undelivered to detect fake updates.",
+          "Vrobo offers two main services: 1) Order Confirmation - verifying orders with customers before shipping through IVR-powered Robo calls, WhatsApp, SMS, and email, and 2) Shipping Verification - checking shipping companies' reports when orders are marked as undelivered to detect fake updates.",
       },
       {
         question: "How does Vrobo's communication process work?",
         answer:
-          "Vrobo follows a smart communication sequence: First, it makes up to 3 AI-powered call attempts with customized messages for your brand. If calls are unsuccessful, it switches to WhatsApp messaging with smart response analysis. If WhatsApp fails, SMS messages are sent. As a final step, email notifications ensure maximum reach.",
+          "Vrobo follows a smart communication sequence: First, it makes up to 3 IVR-powered Robo calls call attempts with customized messages for your brand. If calls are unsuccessful, it switches to WhatsApp messaging with smart response analysis. If WhatsApp fails, SMS messages are sent. As a final step, email notifications ensure maximum reach.",
       },
       {
         question: "How does Vrobo integrate with e-commerce platforms?",

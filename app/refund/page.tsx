@@ -17,7 +17,7 @@ const translations = {
             },
             {
                 title: "Non-Refundable Services",
-                content: "The following services are non-refundable:\n- Successful communication attempts (calls, messages)\n- Completed order validations\n- Verified shipping status checks\n- Successfully detected fake updates"
+                content: "The following services are non-refundable:\n- Successful communication attempts (calls, messages)\n- Completed Order Confirmations\n- Verified shipping status checks\n- Successfully detected fake updates"
             },
             {
                 title: "Trial Period",

@@ -20,16 +20,16 @@ const almarai = Almarai({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vrobo - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
+    default: "Vrobo - IVR-powered Robo calls Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
     template: "%s | Vrobo | في روبو"
   },
-  description: "Vrobo helps e-commerce businesses reduce failed deliveries through AI-Powered Order Confirmation and shipping verification. Detect fake shipping updates and validate orders before shipping. | في روبو يساعد شركات التجارة الإلكترونية على تقليل فشل التوصيل من خلال التحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
+  description: "Vrobo helps e-commerce businesses reduce failed deliveries through IVR-powered Robo calls Order Confirmation and shipping verification. Detect fake shipping updates and validate orders before shipping. | في روبو يساعد شركات التجارة الإلكترونية على تقليل فشل التوصيل من خلال التحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
   keywords: [
-    "order validation",
+    "Order Confirmation",
     "shipping verification",
     "e-commerce automation",
     "delivery confirmation",
-    "AI-powered calls",
+    "IVR-powered Robo calls",
     "fake shipping detection",
     "order management",
     "Vrobo",
@@ -89,21 +89,21 @@ export const metadata: Metadata = {
     alternateLocale: "ar_EG",
     url: "https://Vrobo",
     siteName: "Vrobo | في روبو",
-    title: "Vrobo - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
-    description: "Reduce failed deliveries by up to 45% with Vrobo's AI-Powered Order Confirmation and shipping verification system. Detect fake shipping updates and validate orders before shipping. | قلل فشل التوصيل بنسبة تصل إلى 45٪ مع نظام في روبو للتحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
+    title: "Vrobo - IVR-powered Robo calls Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
+    description: "Reduce failed deliveries by up to 45% with Vrobo's IVR-powered Robo calls Order Confirmation and shipping verification system. Detect fake shipping updates and validate orders before shipping. | قلل فشل التوصيل بنسبة تصل إلى 45٪ مع نظام في روبو للتحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
     images: [
       {
         url: '/images/vrobo-logo-white-bg.png',
         width: 1200,
         height: 630,
-        alt: "Vrobo - AI-Powered Order Confirmation | في روبو - التحقق من الطلبات"
+        alt: "Vrobo - IVR-powered Robo calls Order Confirmation | في روبو - التحقق من الطلبات"
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Vrobo - AI-Powered Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
-    description: "Reduce failed deliveries by up to 45% with Vrobo's AI-Powered Order Confirmation and shipping verification system. | قلل فشل التوصيل بنسبة تصل إلى 45٪ مع نظام في روبو للتحقق من الطلبات والتوصيل",
+    title: "Vrobo - IVR-powered Robo calls Order Confirmation & Shipping Verification | في روبو - التحقق من الطلبات والتوصيل",
+    description: "Reduce failed deliveries by up to 45% with Vrobo's IVR-powered Robo calls Order Confirmation and shipping verification system. | قلل فشل التوصيل بنسبة تصل إلى 45٪ مع نظام في روبو للتحقق من الطلبات والتوصيل",
     images: ['/images/vrobo-logo-white-bg.png'],
     creator: "@vrobo_co",
     site: "@vrobo_co"

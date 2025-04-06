@@ -6,11 +6,11 @@ import { Bot, CheckCircle2, ArrowRight, RefreshCcw, BarChart3 } from "lucide-rea
 const translations = {
   en: {
     title: "How Vrobo Works",
-    subtitle: "Smart order validation and shipping verification process",
+    subtitle: "Smart Order Confirmation and shipping verification process",
     description: "Two powerful services to prevent failed deliveries",
     steps: [
       {
-        title: "Order Validation",
+        title: "Order Confirmation",
         description: "Before shipping any order, Vrobo automatically verifies delivery details with customers through multiple channels.",
         icon: <Bot className="w-8 h-8" />,
         details: [

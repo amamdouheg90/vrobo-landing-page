@@ -11,7 +11,7 @@ const translations = {
     en: {
         orderConfirmation: "Order Confirmation",
         shippingValidation: "Shipping Validation",
-        aiVoiceCall: "AI Voice Call",
+        aiVoiceCall: "IVR-powered Robo calls",
         whatsapp: "WhatsApp",
         sms: "SMS",
         email: "Email"
@@ -71,7 +71,7 @@ export function HeroIllustration() {
                             </div>
                         </div>
 
-                        {/* Order Validation Side */}
+                        {/* Order Confirmation Side */}
                         <div className="flex flex-col gap-4 p-4 md:p-6 border-2 border-[#CE035F]/30 rounded-2xl bg-black/5 backdrop-blur-sm shadow-[0_0_15px_rgba(206,3,95,0.1)]">
                             <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-4 md:p-6">
                                 <div className="flex items-center justify-center gap-4 mb-6">

@@ -9,7 +9,7 @@ const translations = {
         sections: [
             {
                 title: "Service Description",
-                content: "Vrobo provides order validation and shipping verification services through:\n- IVR-powered Robo calls\n- WhatsApp messaging\n- SMS notifications\n- Email communications\nOur services are designed to reduce failed deliveries and detect fake shipping updates."
+                content: "Vrobo provides Order Confirmation and shipping verification services through:\n- IVR-powered Robo calls\n- WhatsApp messaging\n- SMS notifications\n- Email communications\nOur services are designed to reduce failed deliveries and detect fake shipping updates."
             },
             {
                 title: "User Obligations",

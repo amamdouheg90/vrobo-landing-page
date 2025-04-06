@@ -9,7 +9,7 @@ const translations = {
         sections: [
             {
                 title: "Information We Collect",
-                content: "We collect information necessary to provide our order validation and shipping verification services, including:\n- Customer contact details (phone numbers, email addresses)\n- Order information\n- Communication preferences\n- Delivery addresses\n- Communication history through our channels (calls, WhatsApp, SMS, email)"
+                content: "We collect information necessary to provide our Order Confirmation and shipping verification services, including:\n- Customer contact details (phone numbers, email addresses)\n- Order information\n- Communication preferences\n- Delivery addresses\n- Communication history through our channels (calls, WhatsApp, SMS, email)"
             },
             {
                 title: "How We Use Information",

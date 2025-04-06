@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const translations = {
   en: {
     title: "Features",
-    subtitle: "Comprehensive order validation and shipping confirmation platform",
+    subtitle: "Comprehensive Order Confirmation and shipping confirmation platform",
     features: [
       {
         title: "Pre-Shipping Validation",

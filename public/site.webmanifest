@@ -1,7 +1,7 @@
 {
   "name": "Vrobo | في روبو",
   "short_name": "Vrobo | في روبو",
-  "description": "AI-Powered Order Confirmation & Shipping Verification | التحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
+  "description": "IVR-powered Robo calls Order Confirmation & Shipping Verification | التحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",

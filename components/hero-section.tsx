@@ -10,7 +10,7 @@ const translations = {
   en: {
     headline: "Order Confirmation & Shipping Validation",
     subheading:
-      "Vrobo confirms orders before shipping and validates delivery feedback through AI-powered calls, WhatsApp, SMS, and email. We make up to 3 trials to ensure accurate order fulfillment and detect fake shipping updates.",
+      "Vrobo confirms orders before shipping and validates delivery feedback through IVR-powered Robo calls, WhatsApp, SMS, and email. We make up to 3 trials to ensure accurate order fulfillment and detect fake shipping updates.",
     cta: "Start Free Trial",
   },
   ar: {

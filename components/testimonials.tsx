@@ -18,7 +18,7 @@ const translations = {
         service: "Shipping Validation"
       },
       {
-        text: "Using both order confirmation and shipping validation has transformed our delivery process. The AI-powered calls and verification system reduced our failed deliveries by 45%.",
+        text: "Using both order confirmation and shipping validation has transformed our delivery process. The IVR-powered Robo calls and verification system reduced our failed deliveries by 45%.",
         author: "Mazen",
         position: "Dr Gomla - Hats & Accessories",
         service: "Order Confirmation & Shipping Validation"
