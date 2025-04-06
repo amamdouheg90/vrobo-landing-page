@@ -83,7 +83,7 @@ export function Navbar() {
                     <div className={`flex items-center gap-4 ${direction === "rtl" ? "flex-row-reverse" : ""}`}>
                         <LanguageToggle />
                         <a
-                            href="http://admin.Vrobo/login"
+                            href="http://admin.Vrobo.co/login"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-sm text-white/70 hover:text-white transition-colors"
