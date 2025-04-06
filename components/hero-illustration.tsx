@@ -41,10 +41,10 @@ export function HeroIllustration() {
                 {/* Main Flow Container */}
                 <div className="w-full flex flex-col items-center gap-10">
                     {/* Services Split */}
-                    <div className="w-full grid grid-cols-2 gap-12">
+                    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
                         {/* Order Confirmation Side */}
-                        <div className="flex flex-col gap-4 p-6 border-2 border-[#CE035F]/30 rounded-2xl bg-black/5 backdrop-blur-sm shadow-[0_0_15px_rgba(206,3,95,0.1)]">
-                            <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6">
+                        <div className="flex flex-col gap-4 p-4 md:p-6 border-2 border-[#CE035F]/30 rounded-2xl bg-black/5 backdrop-blur-sm shadow-[0_0_15px_rgba(206,3,95,0.1)]">
+                            <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-4 md:p-6">
                                 <div className="flex items-center justify-center gap-4 mb-6">
                                     <div className="w-12 h-12 bg-gradient-to-br from-[#CE035F]/20 to-[#CE035F]/5 backdrop-blur-md rounded-xl flex items-center justify-center shadow-lg">
                                         <ClipboardCheck className="w-6 h-6 text-[#CE035F]" />
@@ -72,8 +72,8 @@ export function HeroIllustration() {
                         </div>
 
                         {/* Order Validation Side */}
-                        <div className="flex flex-col gap-4 p-6 border-2 border-[#CE035F]/30 rounded-2xl bg-black/5 backdrop-blur-sm shadow-[0_0_15px_rgba(206,3,95,0.1)]">
-                            <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6">
+                        <div className="flex flex-col gap-4 p-4 md:p-6 border-2 border-[#CE035F]/30 rounded-2xl bg-black/5 backdrop-blur-sm shadow-[0_0_15px_rgba(206,3,95,0.1)]">
+                            <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-4 md:p-6">
                                 <div className="flex items-center justify-center gap-4 mb-6">
                                     <div className="w-12 h-12 bg-gradient-to-br from-[#CE035F]/20 to-[#CE035F]/5 backdrop-blur-md rounded-xl flex items-center justify-center shadow-lg">
                                         <CheckCircle2 className="w-6 h-6 text-[#CE035F]" />
