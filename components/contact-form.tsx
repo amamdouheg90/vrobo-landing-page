@@ -215,7 +215,7 @@ export function ContactForm() {
                 <p className="text-sm text-red-500">{errors.message}</p>
               )}
             </div>
-            <Button className="bg-[#d01e3f] hover:bg-[#d01e3f] text-white w-full" disabled={isSubmitting}>
+            <Button className="bg-[#de354c] hover:bg-[#c52f43] text-white w-full transition-colors duration-200" disabled={isSubmitting}>
               {isSubmitting ? (
                 <div className="flex items-center justify-center gap-2">
                   <Loader2 className="h-4 w-4 animate-spin" />

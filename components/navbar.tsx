@@ -46,7 +46,7 @@ export function Navbar() {
     }
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 bg-black/5 backdrop-blur-lg border-b border-white/10">
+        <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
@@ -60,21 +60,21 @@ export function Navbar() {
                                 priority
                             />
                         </div>
-                        <span className="text-lg font-semibold text-white">Vrobo</span>
+                        <span className="text-lg font-semibold text-gray-900">Vrobo</span>
                     </Link>
 
                     {/* Navigation Links */}
                     <div className={`hidden md:flex items-center gap-6 ${direction === "rtl" ? "flex-row-reverse" : ""}`}>
-                        <a href="#features" onClick={handleNavClick} className="text-sm text-white/70 hover:text-white transition-colors cursor-pointer">
+                        <a href="#features" onClick={handleNavClick} className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
                             {t.features}
                         </a>
-                        <a href="#how-it-works" onClick={handleNavClick} className="text-sm text-white/70 hover:text-white transition-colors cursor-pointer">
+                        <a href="#how-it-works" onClick={handleNavClick} className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
                             {t.howItWorks}
                         </a>
-                        <a href="#pricing" onClick={handleNavClick} className="text-sm text-white/70 hover:text-white transition-colors cursor-pointer">
+                        <a href="#pricing" onClick={handleNavClick} className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
                             {t.pricing}
                         </a>
-                        <a href="#contact" onClick={handleNavClick} className="text-sm text-white/70 hover:text-white transition-colors cursor-pointer">
+                        <a href="#contact" onClick={handleNavClick} className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
                             {t.contact}
                         </a>
                     </div>
@@ -86,7 +86,7 @@ export function Navbar() {
                             href="http://admin.Vrobo.co/login"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-sm text-white/70 hover:text-white transition-colors"
+                            className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
                         >
                             {t.login}
                         </a>
@@ -94,7 +94,7 @@ export function Navbar() {
                             href="https://admin.Vrobo.co/createAccount"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-[#d01e3f] hover:bg-[#d01e3f] text-white px-4 py-2 rounded-md"
+                            className="bg-[#de354c] hover:bg-[#c52f43] text-white px-4 py-2 rounded-md transition-colors duration-200"
                         >
                             {t.cta}
                         </a>

@@ -45,10 +45,10 @@ const translations = {
   },
   ar: {
     title: "آراء عملائنا",
-    subtitle: "قصص نجاح الشركات اللي بتستخدم فروبو",
+    subtitle: "قصص نجاح الشركات اللي بتستخدم ڤي روبو",
     testimonials: [
       {
-        text: "خدمة التحقق من الشحن ساعدتنا نكتشف تقارير التوصيل المزيفة بكفاءة. معدل نجاح التوصيل اتحسن بشكل كبير من ساعة ما استخدمنا نظام التحقق بتاع فروبو.",
+        text: "خدمة التحقق من الشحن ساعدتنا نكتشف تقارير التوصيل المزيفة بكفاءة. معدل نجاح التوصيل اتحسن بشكل كبير من ساعة ما استخدمنا نظام التحقق بتاع ڤي روبو.",
         author: "شادي",
         position: "سيزارو جينز",
         service: "التحقق من الشحن"
@@ -60,7 +60,7 @@ const translations = {
         service: "تأكيد الطلبات والتحقق من الشحن"
       },
       {
-        text: "كشركة تخزين وتوصيل، التحقق الدقيق من التوصيل مهم جداً. خدمة التحقق من الشحن من فروبو ساعدتنا نحافظ على معدلات نجاح توصيل عالية ونكتشف المشاكل بسرعة.",
+        text: "كشركة تخزين وتوصيل، التحقق الدقيق من التوصيل مهم جداً. خدمة التحقق من الشحن من ڤي روبو ساعدتنا نحافظ على معدلات نجاح توصيل عالية ونكتشف المشاكل بسرعة.",
         author: "أحمد",
         position: "ستوكس للتخزين والتوصيل",
         service: "التحقق من الشحن"
@@ -72,7 +72,7 @@ const translations = {
         service: "التحقق من الشحن"
       },
       {
-        text: "الجمع بين خدمتي التأكيد قبل الشحن والتحقق من التوصيل قلل بشكل كبير من حالات فشل التوصيل. نظام فروبو متعدد القنوات بيضمن إننا نوصل لكل عميل.",
+        text: "الجمع بين خدمتي التأكيد قبل الشحن والتحقق من التوصيل قلل بشكل كبير من حالات فشل التوصيل. نظام ڤي روبو متعدد القنوات بيضمن إننا نوصل لكل عميل.",
         author: "محمد",
         position: "مازال",
         service: "تأكيد الطلبات والتحقق من الشحن"
@@ -86,14 +86,14 @@ export function Testimonials() {
   const t = translations[language]
 
   return (
-    <section id="testimonials" className={`w-full py-12 md:py-24 lg:py-32 bg-black ${direction}`}>
+    <section className="w-full py-12 md:py-24 bg-white">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className={`text-3xl font-bold tracking-tighter sm:text-5xl text-primary-foreground ${direction === "rtl" ? "tracking-[0.15px]" : ""}`}>
+            <h2 className={`text-3xl font-bold tracking-tighter sm:text-5xl text-foreground ${direction === "rtl" ? "tracking-[0.15px]" : ""}`}>
               {t.title}
             </h2>
-            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               {t.subtitle}
             </p>
           </div>
@@ -102,20 +102,20 @@ export function Testimonials() {
           {t.testimonials.slice(0, 3).map((testimonial, i) => (
             <div
               key={i}
-              className="flex flex-col justify-between p-6 bg-white/5 rounded-lg border border-gray-800"
+              className="flex flex-col justify-between p-6 bg-white rounded-lg border border-gray-200"
             >
               <div>
                 <div className={`flex items-center mb-4 ${direction === "rtl" ? "flex-row-reverse" : ""}`}>
-                  <div className={`h-12 w-12 rounded-full bg-[#d01e3f] flex items-center justify-center text-white font-bold text-lg ${direction === "rtl" ? "ml-4" : "mr-4"}`}>
+                  <div className={`h-12 w-12 rounded-full bg-[#de354c] flex items-center justify-center text-white font-bold text-lg ${direction === "rtl" ? "ml-4" : "mr-4"}`}>
                     {testimonial.author[0].toUpperCase()}
                   </div>
                   <div className={`flex flex-col ${direction === "rtl" ? "text-right" : "text-left"}`}>
-                    <p className="font-bold text-white">{testimonial.author}</p>
-                    <p className="text-sm text-gray-400">{testimonial.position}</p>
-                    <p className="text-xs text-[#d01e3f] mt-1">{testimonial.service}</p>
+                    <p className="font-bold text-gray-900">{testimonial.author}</p>
+                    <p className="text-sm text-gray-600">{testimonial.position}</p>
+                    <p className="text-xs text-[#de354c] mt-1">{testimonial.service}</p>
                   </div>
                 </div>
-                <p className={`flex-grow mb-4 text-gray-400 ${direction === "rtl" ? "text-right" : "text-left"}`}>
+                <p className={`flex-grow mb-4 text-gray-600 ${direction === "rtl" ? "text-right" : "text-left"}`}>
                   "{testimonial.text}"
                 </p>
               </div>
@@ -123,7 +123,7 @@ export function Testimonials() {
                 {[...Array(5)].map((_, i) => (
                   <svg
                     key={i}
-                    className="w-5 h-5 text-[#d01e3f] fill-[#d01e3f]"
+                    className="w-5 h-5 text-[#de354c] fill-[#de354c]"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -138,20 +138,20 @@ export function Testimonials() {
           {t.testimonials.slice(3).map((testimonial, i) => (
             <div
               key={i}
-              className="flex flex-col justify-between p-6 bg-white/5 rounded-lg border border-gray-800"
+              className="flex flex-col justify-between p-6 bg-white rounded-lg border border-gray-200"
             >
               <div>
                 <div className={`flex items-center mb-4 ${direction === "rtl" ? "flex-row-reverse" : ""}`}>
-                  <div className={`h-12 w-12 rounded-full bg-[#d01e3f] flex items-center justify-center text-white font-bold text-lg ${direction === "rtl" ? "ml-4" : "mr-4"}`}>
+                  <div className={`h-12 w-12 rounded-full bg-[#de354c] flex items-center justify-center text-white font-bold text-lg ${direction === "rtl" ? "ml-4" : "mr-4"}`}>
                     {testimonial.author[0].toUpperCase()}
                   </div>
                   <div className={`flex flex-col ${direction === "rtl" ? "text-right" : "text-left"}`}>
-                    <p className="font-bold text-white">{testimonial.author}</p>
-                    <p className="text-sm text-gray-400">{testimonial.position}</p>
-                    <p className="text-xs text-[#d01e3f] mt-1">{testimonial.service}</p>
+                    <p className="font-bold text-gray-900">{testimonial.author}</p>
+                    <p className="text-sm text-gray-600">{testimonial.position}</p>
+                    <p className="text-xs text-[#de354c] mt-1">{testimonial.service}</p>
                   </div>
                 </div>
-                <p className={`flex-grow mb-4 text-gray-400 ${direction === "rtl" ? "text-right" : "text-left"}`}>
+                <p className={`flex-grow mb-4 text-gray-600 ${direction === "rtl" ? "text-right" : "text-left"}`}>
                   "{testimonial.text}"
                 </p>
               </div>
@@ -159,7 +159,7 @@ export function Testimonials() {
                 {[...Array(5)].map((_, i) => (
                   <svg
                     key={i}
-                    className="w-5 h-5 text-[#d01e3f] fill-[#d01e3f]"
+                    className="w-5 h-5 text-[#de354c] fill-[#de354c]"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >

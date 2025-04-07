@@ -4,8 +4,8 @@
   "description": "IVR-powered Robo calls Order Confirmation & Shipping Verification | التحقق من الطلبات والتوصيل باستخدام الذكاء الاصطناعي",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "/images/vrobo-logo-white-bg.png",

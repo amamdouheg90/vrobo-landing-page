@@ -40,7 +40,7 @@ const translations = {
     subtitle: "منصة متكاملة للتحقق من الطلبات وتأكيد الشحن",
     features: [
       {
-        title: "التحقق قبل الشحن",
+        title: "التأكيد قبل الشحن",
         description: "بنتأكد من تفاصيل الطلب مع العملاء من خلال المكالمات الذكية قبل الشحن عشان نمنع مشاكل التوصيل ونقلل التكاليف.",
       },
       {
@@ -68,12 +68,12 @@ const translations = {
 }
 
 const icons = [
-  <Bot key="bot" className="w-10 h-10 text-[#d01e3f]" />,
-  <MessageSquare key="message" className="w-10 h-10 text-[#d01e3f]" />,
-  <BarChart key="chart" className="w-10 h-10 text-[#d01e3f]" />,
-  <Globe key="globe" className="w-10 h-10 text-[#d01e3f]" />,
-  <MessageCircle key="sms" className="w-10 h-10 text-[#d01e3f]" />,
-  <Shield key="shield" className="w-10 h-10 text-[#d01e3f]" />,
+  <Bot key="bot" className="w-10 h-10 text-[#de354c]" />,
+  <MessageSquare key="message" className="w-10 h-10 text-[#de354c]" />,
+  <BarChart key="chart" className="w-10 h-10 text-[#de354c]" />,
+  <Globe key="globe" className="w-10 h-10 text-[#de354c]" />,
+  <MessageCircle key="sms" className="w-10 h-10 text-[#de354c]" />,
+  <Shield key="shield" className="w-10 h-10 text-[#de354c]" />,
 ]
 
 export function Features() {
@@ -94,7 +94,7 @@ export function Features() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {t.features.map((feature, index) => (
-            <Card key={index} className="border-2 hover:border-[#d01e3f] transition-all duration-300">
+            <Card key={index} className="border-2 hover:border-[#de354c] transition-all duration-300">
               <CardHeader className={direction === "rtl" ? "text-right" : "text-left"}>
                 <div className={`mb-2 ${direction === "rtl" ? "mr-0" : ""}`}>{icons[index]}</div>
                 <CardTitle>{feature.title}</CardTitle>

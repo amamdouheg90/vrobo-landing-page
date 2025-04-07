@@ -52,13 +52,13 @@ const translations = {
     ]
   },
   ar: {
-    title: "طريقة عمل فروبو",
+    title: "طريقة عمل ڤي روبو",
     subtitle: "نظام ذكي للتحقق من الطلبات والشحن",
     description: "خدمتين أساسيين لمنع فشل عمليات التوصيل",
     steps: [
       {
         title: "التحقق من الطلبات",
-        description: "قبل شحن أي طلب، فروبو بيتأكد تلقائياً من تفاصيل التوصيل مع العملاء من خلال قنوات متعددة.",
+        description: "قبل شحن أي طلب، ڤي روبو بيتأكد تلقائياً من تفاصيل التوصيل مع العملاء من خلال قنوات متعددة.",
         icon: <Bot className="w-8 h-8" />,
         details: [
           "مكالمات ذكية مع 3 محاولات",
@@ -68,7 +68,7 @@ const translations = {
       },
       {
         title: "التحقق من الشحن",
-        description: "لما شركات الشحن تبلغ عن فشل التوصيل، فروبو بيتأكد من الحالة مباشرة مع العملاء عشان يكتشف التقارير المزيفة.",
+        description: "لما شركات الشحن تبلغ عن فشل التوصيل، ڤي روبو بيتأكد من الحالة مباشرة مع العملاء عشان يكتشف التقارير المزيفة.",
         icon: <CheckCircle2 className="w-8 h-8" />,
         details: [
           "التأكد من حالة الشحن مع العميل",
@@ -78,7 +78,7 @@ const translations = {
       },
       {
         title: "نظام تواصل ذكي",
-        description: "فروبو بيستخدم نظام ذكي للتواصل عبر قنوات مختلفة عشان يضمن أعلى نسبة وصول ورد.",
+        description: "ڤي روبو بيستخدم نظام ذكي للتواصل عبر قنوات مختلفة عشان يضمن أعلى نسبة وصول ورد.",
         icon: <RefreshCcw className="w-8 h-8" />,
         details: [
           "نبدأ بالمكالمات الذكية",
@@ -110,7 +110,7 @@ export function HowItWorks() {
     <section id="how-it-works" className="w-full py-12 md:py-24 bg-gradient-to-b from-background to-background/80">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-          <h2 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-gradient-to-r from-[#d01e3f] to-[#d01e3f]/70 bg-clip-text text-transparent font-[var(--font-almarai)] ${direction === "rtl" ? "tracking-[0.15px]" : ""}`}>
+          <h2 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-gradient-to-r from-[#de354c] to-[#de354c]/70 bg-clip-text text-transparent font-[var(--font-almarai)] ${direction === "rtl" ? "tracking-[0.15px]" : ""}`}>
             {t.title}
           </h2>
           <p className={`text-muted-foreground max-w-[700px] md:text-lg ${fontClass}`}>
@@ -122,10 +122,10 @@ export function HowItWorks() {
           {t.steps.map((step, index) => (
             <div
               key={index}
-              className={`relative p-6 bg-card rounded-xl border border-border/50 hover:border-[#d01e3f]/30 transition-colors group ${fontClass}`}
+              className={`relative p-6 bg-card rounded-xl border border-border/50 hover:border-[#de354c]/30 transition-colors group ${fontClass}`}
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-2 rounded-lg bg-[#d01e3f]/10 text-[#d01e3f] group-hover:bg-[#d01e3f] group-hover:text-white transition-colors">
+                <div className="p-2 rounded-lg bg-[#de354c]/10 text-[#de354c] group-hover:bg-[#de354c] group-hover:text-white transition-colors">
                   {step.icon}
                 </div>
                 <h3 className="text-xl font-semibold">{step.title}</h3>
@@ -136,7 +136,7 @@ export function HowItWorks() {
               <ul className="space-y-2">
                 {step.details.map((detail, i) => (
                   <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <ArrowRight className="w-4 h-4 text-[#d01e3f]" />
+                    <ArrowRight className="w-4 h-4 text-[#de354c]" />
                     {detail}
                   </li>
                 ))}

@@ -150,10 +150,10 @@ export default function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           ></iframe>
         </noscript>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <LanguageProvider>
             <Navbar />
-            <main className="min-h-screen bg-black pt-8">
+            <main className="min-h-screen bg-white pt-8">
               {children}
             </main>
             <Footer />
