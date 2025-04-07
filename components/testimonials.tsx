@@ -18,6 +18,12 @@ const translations = {
         service: "Shipping Validation"
       },
       {
+        text: "The shipping validation service has been instrumental in improving our delivery accuracy. We can now quickly verify and address any delivery issues.",
+        author: "Samer Gharaibeh",
+        position: "Mylerz",
+        service: "Shipping Validation"
+      },
+      {
         text: "Using both order confirmation and shipping validation has transformed our delivery process. The IVR-powered Robo calls and verification system reduced our failed deliveries by 45%.",
         author: "Mazen",
         position: "Dr Gomla - Hats & Accessories",
@@ -27,12 +33,6 @@ const translations = {
         text: "As a fulfillment company, accurate delivery verification is crucial. Vrobo's shipping validation service has helped us maintain high delivery success rates and detect issues early.",
         author: "Ahmed",
         position: "Stox Fulfillment",
-        service: "Shipping Validation"
-      },
-      {
-        text: "The shipping validation service has been instrumental in improving our delivery accuracy. We can now quickly verify and address any delivery issues.",
-        author: "Mr Samer",
-        position: "Mylerz",
         service: "Shipping Validation"
       },
       {
@@ -54,6 +54,12 @@ const translations = {
         service: "التحقق من الشحن"
       },
       {
+        text: "خدمة التحقق من الشحن كان ليها دور كبير في تحسين دقة التوصيل. دلوقتي نقدر نتحقق من أي مشاكل في التوصيل ونحلها بسرعة.",
+        author: "سامر غريبة",
+        position: "مايلرز",
+        service: "التحقق من الشحن"
+      },
+      {
         text: "استخدام خدمتي تأكيد الطلبات والتحقق من الشحن غير نظام التوصيل بتاعنا بالكامل. المكالمات الذكية ونظام التحقق قللوا حالات فشل التوصيل بنسبة 45%.",
         author: "مازن",
         position: "دكتور جملة - إكسسوارات وقبعات",
@@ -63,12 +69,6 @@ const translations = {
         text: "كشركة تخزين وتوصيل، التحقق الدقيق من التوصيل مهم جداً. خدمة التحقق من الشحن من ڤي روبو ساعدتنا نحافظ على معدلات نجاح توصيل عالية ونكتشف المشاكل بسرعة.",
         author: "أحمد",
         position: "ستوكس للتخزين والتوصيل",
-        service: "التحقق من الشحن"
-      },
-      {
-        text: "خدمة التحقق من الشحن كان ليها دور كبير في تحسين دقة التوصيل. دلوقتي نقدر نتحقق من أي مشاكل في التوصيل ونحلها بسرعة.",
-        author: "الأستاذ سمير",
-        position: "مايلرز",
         service: "التحقق من الشحن"
       },
       {
