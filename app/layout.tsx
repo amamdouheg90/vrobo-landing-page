@@ -10,19 +10,13 @@ import "./globals.css"
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
-  variable: '--font-poppins',
-  display: 'swap',
-  preload: true,
-  fallback: ['system-ui', 'arial']
+  variable: '--font-poppins'
 })
 
 const almarai = Almarai({
   subsets: ['arabic'],
   weight: ['400', '700'],
-  variable: '--font-almarai',
-  display: 'swap',
-  preload: true,
-  fallback: ['system-ui', 'arial']
+  variable: '--font-almarai'
 })
 
 export const metadata: Metadata = {
@@ -135,17 +129,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          as="style"
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Almarai:wght@400;700&display=swap"
-        />
-        <Script id="google-tag-manager" strategy="lazyOnload">
+        <Script id="google-tag-manager" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -154,8 +138,6 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-K2C3S4X5');
           `}
         </Script>
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="icon" href="/images/vrobo-logo-white-bg.png" sizes="any" />
         <link rel="apple-touch-icon" href="/images/vrobo-logo-white-bg.png" />
       </head>
