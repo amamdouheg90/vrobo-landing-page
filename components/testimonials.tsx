@@ -146,8 +146,8 @@ export function Testimonials() {
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-6 lg:max-w-[66%] mx-auto">
-          {t.testimonials.slice(3).map((testimonial, i) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+          {t.testimonials.slice(3, 6).map((testimonial, i) => (
             <div
               key={i}
               className="flex flex-col justify-between p-6 bg-white rounded-lg border border-gray-200"
