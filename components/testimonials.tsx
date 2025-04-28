@@ -40,6 +40,12 @@ const translations = {
         author: "Mohamed",
         position: "Mazalle",
         service: "Order Confirmation & Shipping Validation"
+      },
+      {
+        text: "Raya shop has benefited from both Vrobo's order confirmation and shipping validation services. The process is seamless and reliable, making our delivery operations much more efficient.",
+        author: "Moustafa",
+        position: "Raya shop, 3PL Manager",
+        service: "Order Confirmation & Shipping Validation"
       }
     ]
   },
@@ -75,6 +81,12 @@ const translations = {
         text: "الجمع بين خدمتي التأكيد قبل الشحن والتحقق من التوصيل قلل بشكل كبير من حالات فشل التوصيل. نظام ڤي روبو متعدد القنوات بيضمن إننا نوصل لكل عميل.",
         author: "محمد",
         position: "مازال",
+        service: "تأكيد الطلبات والتحقق من الشحن"
+      },
+      {
+        text: "رايا شوب استفادت من خدمتي تأكيد الطلبات والتحقق من الشحن من ڤي روبو. العملية سهلة وموثوقة، وخلت عمليات التوصيل عندنا أكثر كفاءة.",
+        author: "مصطفى",
+        position: "رايا شوب، مدير لوجستيات (3PL)",
         service: "تأكيد الطلبات والتحقق من الشحن"
       }
     ]
