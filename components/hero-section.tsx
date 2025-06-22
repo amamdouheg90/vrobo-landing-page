@@ -37,7 +37,7 @@ export function HeroSection() {
               {t.subheading}
             </p>
             <div className={`flex flex-col gap-2 min-[400px]:flex-row ${direction === "rtl" ? "justify-end" : "justify-start"}`}>
-              <Link href="https://admin.Vrobo.co/createAccount" target="_blank" rel="noopener noreferrer">
+              <Link href="https://merchant.vrobo.co/register" target="_blank" rel="noopener noreferrer">
                 <Button className={`bg-[#de354c] hover:bg-[#c52f43] text-white px-8 py-6 text-lg w-full min-[400px]:w-auto transition-colors duration-200 ${direction === "rtl" ? "tracking-[0.5px]" : ""}`}>
                   {t.cta}
                 </Button>

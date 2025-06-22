@@ -91,7 +91,7 @@ export function Navbar() {
                             {t.login}
                         </a>
                         <a
-                            href="https://admin.Vrobo.co/createAccount"
+                            href="https://merchant.vrobo.co/register"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-[#de354c] hover:bg-[#c52f43] text-white px-4 py-2 rounded-md transition-colors duration-200"
